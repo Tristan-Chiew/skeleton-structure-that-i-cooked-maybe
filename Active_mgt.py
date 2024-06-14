@@ -19,6 +19,8 @@ def active_state():
             time.sleep(2)
             if x == "y":
                 break
+        elif drink_chosen == 69:
+            break
         else:
             example_payment.payment(drink_chosen)
             x = input("Sleepy time? y/n")
